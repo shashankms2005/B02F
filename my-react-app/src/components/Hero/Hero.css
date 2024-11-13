@@ -1,0 +1,49 @@
+.hero-container {
+  background: url("/image 1.png") no-repeat;
+  height: 34vw;
+  margin: 30px auto;
+  background-size: contain;
+  position: relative;
+}
+
+.header-content-img {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 1.5vw;
+  max-width: 50%;
+  bottom: 10%;
+  left: 6vw;
+  font-family: outfit;
+}
+
+.header-content-img p {
+  color: black;
+  font-size: 1vw;
+  display: none;
+}
+@media (max-width: 768px) {
+  .header-content-img p {
+    display: block;
+    font-size: 14px;
+  }
+
+  #m-p-1,
+  #m-p-2,
+  #m-p-3 {
+    font-weight: 500;
+  }
+
+  #m-p-1 {
+    color: #891993;
+  }
+
+  #m-p-2 {
+    color: #5a156b;
+  }
+
+  #m-p-3 {
+    color: #e52fde;
+  }
+}
