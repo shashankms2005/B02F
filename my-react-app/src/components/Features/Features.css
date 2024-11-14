@@ -1,0 +1,69 @@
+.features-section {
+  text-align: center;
+  padding: 20px;
+  background-color: #f9f9f9;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.features-section h2 {
+  font-family: Cormorant;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48.44px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #201041;
+}
+
+.features-section p {
+  font-family: Cormorant;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29.06px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 34px 0px 0px 0px;
+  gap: 38px;
+  opacity: 0px;
+}
+
+.feature-card {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 8px 16px 0px #00000033;
+  text-align: center;
+  border: 1px solid #000000;
+}
+
+.feature-card h3 {
+  color: #2e2e3b;
+  font-family: Cormorant;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24.22px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.feature-card p {
+  margin-top: 10px;
+  color: #464657;
+  font-family: Cormorant;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24.22px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}

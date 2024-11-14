@@ -47,3 +47,10 @@
     color: #e52fde;
   }
 }
+
+@media (max-width: 400px) {
+  .header-content-img p {
+    display: block;
+    font-size: 10px;
+  }
+}
