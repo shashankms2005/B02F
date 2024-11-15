@@ -21,7 +21,7 @@ const Banner = () => {
         </div>
         <div id="b-img-2">
           <img
-            src="young women working with computer.png "
+            src="young women working with computer (1).png "
             alt="young women working with computer"
           />
         </div>
